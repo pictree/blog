@@ -1,0 +1,12 @@
+{
+    "name": "pictree/blog",
+    "description": "blog's picture wareroom",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pictree\\Blog\\": "src/Blog"
+        }
+    }
+}
