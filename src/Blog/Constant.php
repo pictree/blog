@@ -9,9 +9,9 @@ namespace Pictree\Blog;
 
 class Constant
 {
-    const NAME = 'Constant';
+    const CONTROY_NAME = '中国';
 
-    public function className()
+    public static function controyName()
     {
         echo self::NAME, PHP_EOL;
 //        return self::NAME;
